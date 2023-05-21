@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>listagem de mobs</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/scrollbar.css">
+</head>
+
+<body>
+    <header>
+        <a href="#">
+            <img src="./src/imagens/espada.png" alt="esapda" class="logo">
+        </a>
+        <button id="botao-alterar-tema">
+            <img src="./src/imagens/cubo-de-terra.png" alt="cubo-de-terra-comum" class="imagem-botao">
+        </button>
+    </header>
+    <main>
+        <ul class="lista-de-mobs">
+            <li class="cartao-mob">
+                <div class="informacoes">
+                    <span>aranha</span>
+                    <span>001</span>
+                </div>
+                <img src="./src/imagens/aranha.png" alt="aranha" class="png">
+                <ul class="tipos">
+                    <li class="tipo neutro">neutro</li>
+                </ul>
+                <p class="descricao">As aranhas são hostis ao jogador e aos golems de ferro contanto que o nível de luminosidade à sua volta seja de 11 ou menos; caso contrário, eles não vão atacar a menos que um jogador as ataquem em primeiro lugar. Aranhas hostis continuarão a perseguir o jogador, mesmo se eles são expostos a locais bem iluminados. Caso uma aranha tenha sofrido danos de uma fonte que não seja o jogador, tal como uma queda, sua hostilidade será redefinida.</p>
+            </li>
+            <li class="cartao-mob">
+                <div class="informacoes">
+                    <span>zumbi</span>
+                    <span>002</span>
+                </div>
+                <img src="./src/imagens/zumbi.png" alt="zumbi" class="png">
+                <ul class="tipos">
+                    <li class="tipo hostil">hostil</li>
+                </ul>
+                <p class="descricao">Aparecem em grupos de 4 num nível de luz de 0 (7 ou menos antes da 1.18). Há 5% de chance de gerar como um Aldeão zumbi e 5% de chance como bebê.Em aldeias com ao menos 10 camas e 20 aldeões numa noite, se gerará uma horda de até 20 zumbis nos cantos da aldeia, independente dos níveis de luz ou blocos com transparência. Pode ocorrer em qualquer bioma, até ilhas de cogumelo.</p>
+            </li>
+            <li class="cartao-mob">
+                <div class="informacoes">
+                    <span>esqueleto</span>
+                    <span>003</span>
+                </div>
+                <img src="./src/imagens/skeleton.png" alt="esqueleto" class="png">
+                <ul class="tipos">
+                    <li class="tipo hostil">hostil</li>
+                </ul>
+                <p class="descricao">são criaturas hostis equipadas com arcos.Aparecem em um nível de luz de 0 em grupos de 4 ou 5 na Superfície na Edição Java e 1 a 2 na Edição Bedrock. Eles podem ser encontrados acima de blocos sólidos de todos os biomas da Superfície, exceto nos campos de cogumelos e nas profundezas sombrias. 80% dos esqueletos gerados diretamente sob o céu aparecem como esqueletos-errantes em planícies nevadas, oceanos congelados e variantes.</p>
+            </li>
+            <li class="cartao-mob">
+                <div class="informacoes">
+                    <span>creeper</span>
+                    <span>004</span>
+                </div>
+                <img src="./src/imagens/creeper.png" alt="creeper" class="png">
+                <ul class="tipos">
+                    <li class="tipo hostil">hostil</li>
+                </ul>
+                <p class="descricao">São criaturas hostis fatais, comumente verdes que se aproximam silenciosamente de jogadores e explodem logo depois de chegar a 3 blocos de seus alvos.Creepers são uma importante fonte de pólvora bem como a única maneira de obter mais discos de música. Quando atingido por raio, um creeper fica elétrico, o que amplifica substancialmente sua potência de explosão e permite que cabeças de criatura serem obtidas.</p>
+            </li>
+            <li class="cartao-mob">
+                <div class="informacoes">
+                    <span>bruxa</span>
+                    <span>005</span>
+                </div>
+                <img src="./src/imagens/bruxa.png" alt="buxa" class="png">
+                <ul class="tipos">
+                    <li class="tipo hostil">hostil</li>
+                </ul>
+                <p class="descricao">São criaturas hostis incomuns as quais usam poções arremessáveis como arma de longa distância e poções benéficas em si mesmas defensivamente. Ainda que sejam perigosas, podem fornecer importantes ingredientes para a criação de poções.As bruxas aparecem em cabanas no pântano e em qualquer local escuro ao anoitecer, todavia elas são menos comum que outros mobs hostis. Suas cabanas são simples, com a estrutura constituindo madeira de pinheiro, uma mesa de trabalho, um vaso de flor com um cogumelo vermelho e um aldeão.</p>
+            </li>
+            <li class="cartao-mob">
+                <div class="informacoes">
+                    <span>ghast</span>
+                    <span>006</span>
+                </div>
+                <img src="./src/imagens/ghast.png" alt="ghast" class="png">
+                <ul class="tipos">
+                    <li class="tipo hostil">hostil</li>
+                    <li class="tipo nether">nether</li>
+                </ul>
+                <p class="descricao">São uma espécie de criatura similar a uma água-viva muito grande, que flutua pelo ar e atira bolas de fogo de suas bocas. Seus corpos são 4 por 4 por 4 blocos com nove tentáculos penduradas no fundo.São capazes de gerar em qualquer lugar do Nether, desde que haja espaço suficiente.Ghasts normalmente flutuam com seus olhos e boca fechada. Eles abrem seus olhos e boca quando atacam. Eles fazem um miado parecido com um chilro quando atiram e gritam alto quando tomam dano. </p>
+            </li>
+            <li class="cartao-mob">
+                <div class="informacoes">
+                    <span>enderman</span>
+                    <span>007</span>
+                </div>
+                <img src="./src/imagens/enderman.png" alt="endeman" class="png">
+                <ul class="tipos">
+                    <li class="tipo neutro">neutro</li>
+                </ul>
+                <p class="descricao">É uma criatura neutra encontrada em todas as três dimensões. Endermans podem teletransportar e pegar blocos.Os endermans só podem ser gerados em superfícies sólidas que têm pelo menos três espaços vazios acima, no nível de luz de 0 na Superfície e no End ou no nível de luz 11 ou menos no Nether.São gerados incomumente na Superfície, em todos os biomas exceto em campos de cogumelos e profundezas sombrias. Eles são frequentemente gerados em grupos de três.</p>
+            </li>
+            <li class="cartao-mob">
+                <div class="informacoes">
+                    <span>vex</span>
+                    <span>008</span>
+                </div>
+                <img src="./src/imagens/Vex.png" alt="vex" class="png">
+                <ul class="tipos">
+                    <li class="tipo hostil">hostil</li>
+                </ul>
+                <p class="descricao"> É uma pequena criatura hostil voadora. Ele segura uma espada de ferro, pode atravessar paredes e apenas é invocado como um dos ataques do invocador.Os vexes só aparecem naturalmente com ataque de convocação do invocadores; O invocador assinala esse ataque produzindo fumaça esbranquiçada e um som semelhante a um chifre. Entre 2 e 4 vexes aparecerão perto do invocador. O invocador invocará vexes, mesmo que ainda existam alguns ainda vivos da última invocação.</p>
+            </li>
+            <li class="cartao-mob">
+                <div class="informacoes">
+                    <span>magma cube</span>
+                    <span>009</span>
+                </div>
+                <img src="./src/imagens/magma cube.png" alt="magma cube" class="png">
+                <ul class="tipos">
+                    <li class="tipo hostil">hostil</li>
+                    <li class="tipo nether">nether</li>
+                </ul>
+                <p class="descricao">Um cubo de magma é uma criatura hostil com a aparência vermelha e negra e com olhos vermelhos, laranjas e amarelos encontrado raramente pelas ruínas do Nether e comumente pelas fortalezas e deltas de basalto. Este possui um comportamento semelhante ao de um slime.Cubos de magma geram nos biomas chamados ruínas do Nether em qualquer nível de luz em grupos de 4, no entanto sua taxa de geração é maior em fortalezas e nos biomas deltas de basalto.</p>
+            </li>
+            <li class="cartao-mob">
+                <div class="informacoes">
+                    <span>ender dragon</span>
+                    <span>010</span>
+                </div>
+                <img src="./src/imagens/ender dragon.png" alt="ender dragon" class="png">
+                <ul class="tipos">
+                    <li class="tipo boss">boss</li>
+                </ul>
+                <p class="descricao">É um Boss que aparece no End.Um único dragão ender desovar de forma natural no End, imediatamente como o primeiro jogador entra na dimensão. Ele vai gerar em qualquer Dificuldade, incluindo pacífico, mas não será capaz de prejudicar um jogador no modo pacífico.Os jogadores podem voltar a gerar o dragão ender uma vez que a luta está concluída, colocando quatro cristais do end no topo do Portal do end, um em cada lado.</p>
+            </li>
+        </ul>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
